@@ -6,7 +6,39 @@
 	<link rel="stylesheet" href="hw2cal.css">
 </head>
 <body>
-	<div>
+	<form name="frm">
+		<input name="result">
+		<br>
+		<input type="button" name="AC" value="AC" onClick="runAC()">
+		<input type="button" name="tog" value="+/-" onClick="runtog()">
+		<input type="button" name="per" value="%" onClick="runper()">
+		<input type="button" name="div" value="÷" onClick="rundiv()">
+		<br>
+		<input type="button" name="7" value="7" onClick="run7()">
+		<input type="button" name="8" value="8" onClick="run8()">
+		<input type="button" name="9" value="9" onClick="run9()">
+		<input type="button" name="mult" value="*" onClick="runmult()">
+		<br>
+		<input type="button" name="4" value="4" onClick="run4()">
+		<input type="button" name="5" value="5" onClick="run5()">
+		<input type="button" name="6" value="6" onClick="run6()">
+		<input type="button" name="sub" value="-" onClick="runsub()">
+		<br>
+		<input type="button" name="1" value="1" onClick="run1()">
+		<input type="button" name="2" value="2" onClick="run2()">
+		<input type="button" name="3" value="3" onClick="run3()">
+		<input type="button" name="plus" value="+" onClick="runplus()">
+		<br>
+		<input type="button" name="0" value="0" onClick="run0()">
+		<input type="button" name="dec" value="." onClick="rundec()">
+		<input type="button" name="eql" value="=" onClick="runeql()">
+
+
+
+	</form>
+
+	
+	<!-- <div>
 		<form class="calcBody">
 		<input name="result">
 		<br>
@@ -34,8 +66,8 @@
 		<input type="button" onclick="doAction('.')" class="button" name="." value=".">
 		<input type="button" onclick="doAction('=')" class="button" name="=" value="=">
 	</form>
-	</div>
-   
-	<script src="hw2cal.js"></script>
+</div> -->
+
+<script src="hw2cal.js"></script>
 </body>
 </html>
